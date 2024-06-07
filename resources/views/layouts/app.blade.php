@@ -12,11 +12,17 @@
 </head>
 
 <body>
-  @include('partials.header')
-  <main>
-    @yield('content')
-  </main>
-  @include('partials.footer')
+  <div class="d-flex flex-column h-100">
+    <div>
+      @include('partials.header')
+    </div>
+    <main>
+      @yield('content')
+    </main>
+    <div class="justify-self-end">
+      @include('partials.footer')
+    </div>
+  </div>
 </body>
 
 </html>
