@@ -7,4 +7,18 @@ img {
 }
 .ms-card {
     width: calc(100% / 3 - 20px);
+    .images {
+        .imgback {
+            display: none;
+        }
+    }
+
+    .images:hover {
+        .imgback {
+            display: block;
+        }
+        .imgfront {
+            display: none;
+        }
+    }
 }
