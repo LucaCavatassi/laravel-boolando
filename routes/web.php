@@ -19,6 +19,7 @@ Route::get('/', function () {
 })->name("home");
 
 // HEADER
+
 Route::get("/user", function() {
     return view ("user");
 })->name("user");
