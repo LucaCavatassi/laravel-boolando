@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $products = config("products.product");
+    $products = config("products.products");
     return view('home', compact("products"));
 });
