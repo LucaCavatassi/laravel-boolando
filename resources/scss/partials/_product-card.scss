@@ -8,17 +8,46 @@ img {
 .ms-card {
     width: calc(100% / 3 - 20px);
     .images {
+        position: relative;
         .imgback {
             display: none;
+        }
+
+        .like-badge {
+            display: none;
+            position: absolute;
+            background-color: white;
+            top: 10px;
+            right: 0;
+            padding: 12px;
+            .liked {
+                display: none;
+            }
         }
     }
 
     .images:hover {
+        .like-badge {
+            display: block;
+        }
         .imgback {
             display: block;
         }
         .imgfront {
             display: none;
         }
+        .like-badge:hover {
+            .liked {
+                display: block;
+            }
+            .unliked {
+                display: none;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 }
