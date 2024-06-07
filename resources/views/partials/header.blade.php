@@ -7,9 +7,9 @@
         </ul>
         <img class="img-fluid w-25" src="{{ asset("img/boolean-logo.png")  }}" alt="logo">
         <ul class="p-0 d-flex align-items-center justify-content-end gap-3 fs-4 text-white fw-bolder">
-            <li><a href=""><i class="fa-regular fa-user"></i></a></li>
-            <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <li><a href="{{ route("user")}}"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="{{ route("fav")}}"><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href="{{ route("cart")}}"><i class="fa-solid fa-bag-shopping"></i></a></li>
         </ul>
     </div>
 </header>

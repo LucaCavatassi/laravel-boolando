@@ -4,9 +4,9 @@
         <div>
             <h5 class="m-0">Boolando s.r.l.</h5>
             <ul class="px-0 d-flex gap-3 m-0">
-                <li><a href="">Informazioni Legali</a></li>
-                <li><a href="">Informativa sulla privacy</a></li>
-                <li><a href="">Diritto di recesso</a></li>
+                <li><a href="{{ route("legal")}}">Informazioni Legali</a></li>
+                <li><a href="{{ route("privacy")}}">Informativa sulla privacy</a></li>
+                <li><a href="{{ route("returns")}}">Diritto di recesso</a></li>
             </ul>
         </div>
         {{-- LEGAL --}}
