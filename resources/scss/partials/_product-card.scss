@@ -24,6 +24,22 @@ img {
                 display: none;
             }
         }
+
+        .other-badges{
+            position: absolute;
+            color: white;
+            bottom: 10px;
+            left: 0;
+            font-weight: bolder;
+            .tag {
+                background-color: green;
+                padding: 5px;
+            }
+            .discount {
+                background-color: red;
+                padding: 5px;
+            }
+        }
     }
 
     .images:hover {
