@@ -1,4 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h1>Privacy Section</h1>
+    <div class="center-cont">
+        <h1>Privacy Section</h1>
+    </div>
 @endsection

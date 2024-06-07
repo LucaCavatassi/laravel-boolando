@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Fav Section</h1>
+    <div class="center-cont">
+        <h1>Fav Section</h1>
+    </div>
 @endsection
