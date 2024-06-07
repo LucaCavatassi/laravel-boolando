@@ -5,7 +5,9 @@
             <li><a href="">Uomo</a></li>
             <li><a href="">Bambino</a></li>
         </ul>
-        <img class="img-fluid w-25" src="{{ asset("img/boolean-logo.png")  }}" alt="logo">
+        <a class="d-flex justify-content-center" href="{{ route("home") }}">
+            <img class="img-fluid w-50" src="{{ asset("img/boolean-logo.png")  }}" alt="logo">
+        </a>
         <ul class="p-0 d-flex align-items-center justify-content-end gap-3 fs-4 text-white fw-bolder">
             <li><a href="{{ route("user")}}"><i class="fa-regular fa-user"></i></a></li>
             <li><a href="{{ route("fav")}}"><i class="fa-regular fa-heart"></i></a></li>
