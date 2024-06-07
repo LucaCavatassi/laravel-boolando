@@ -1,6 +1,10 @@
+.home-cont {
+    gap: 20px;
+}
+
 img {
     max-width: 100%;
 }
 .ms-card {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
 }
